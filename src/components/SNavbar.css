@@ -1,0 +1,33 @@
+.navbar-container {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Cursive, Arial, sans-serif';
+  }
+  
+  .admin-logo {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem;
+    font-family: 'Cursive, Arial, sans-serif';
+  }
+  
+  .sub-nav {
+    padding-left: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Cursive, Arial, sans-serif';
+    font-size: 1.1rem;
+  }
+  
+  nav a:hover {
+    color: #ff9800;
+  }
+  

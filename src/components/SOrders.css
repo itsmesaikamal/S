@@ -1,0 +1,130 @@
+/* Orders Page Styles */
+.orders-container {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse; /* Ensure no gaps between cells */
+}
+
+.table-header, .table-row {
+  display: flex;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.header-cell, .table-cell {
+  flex: 1;
+  text-align: left;
+  min-width: 120px; /* Ensure minimum width for columns */
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Ellipsis for overflowing text */
+}
+
+.header-cell {
+  font-weight: bold;
+  color: #555;
+  background-color: #f4f4f4;
+}
+
+.table-cell {
+  color: #555;
+}
+
+/* Invoice Form Styles */
+.invoice-form-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%; /* Adjust as needed */
+  max-width: 800px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-row label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-row input {
+  flex: 2;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.items-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.items-table .table-header, .items-table .table-row {
+  display: flex;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.items-table .header-cell, .items-table .table-cell {
+  flex: 1;
+  text-align: left;
+  min-width: 120px; /* Ensure minimum width for columns */
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Ellipsis for overflowing text */
+}
+
+.action-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
+
+/* Modal Styles */
+.invoice-modal {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 70vh; /* Adjust as needed */
+  overflow-y: auto;
+  width: 60%; /* Adjust as needed */
+  max-width: 800px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the modal horizontally */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the modal vertically and horizontally */
+}

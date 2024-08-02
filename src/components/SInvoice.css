@@ -1,0 +1,81 @@
+.invoice-modal {
+  position: fixed; /* Make sure it's fixed to the viewport */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Offset to account for its own width and height */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 80vh; /* Adjust as needed */
+  overflow-y: auto;
+  width: 50vw; /* Adjust to your preference */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+
+.invoice-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.invoice-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.invoice-body {
+  margin-top: 20px;
+}
+
+.invoice-address {
+  margin-bottom: 20px;
+}
+
+.invoice-items {
+  margin-bottom: 20px;
+}
+
+.invoice-summary {
+  margin-top: 20px;
+}
+
+.invoice-totals p {
+  margin: 5px 0;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+
+.view-icon {
+  color: #2196f3;
+}
+
+.delete-icon {
+  color: #f44336;
+}
+
+.download-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
